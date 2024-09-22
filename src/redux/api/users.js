@@ -1,4 +1,4 @@
-import { IoMdBody } from 'react-icons/io';
+
 import { api } from './index';
 
 const usersApi = api.injectEndpoints({
