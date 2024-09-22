@@ -6,7 +6,7 @@ import { AiOutlineHome } from 'react-icons/ai'
 import { logOut } from "../../redux/slices/authSlice";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { useCreateUserMutation } from '../../redux/api/Users';
+import { useCreateUserMutation } from '../../redux/api/users';
 import { notification } from 'antd';
 
 const Profile = () => {

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import { useGetUsersQuery } from '../../redux/api/Users'
+import { useGetUsersQuery } from '../../redux/api/users'
 import { useNavigate } from 'react-router-dom'
 
 

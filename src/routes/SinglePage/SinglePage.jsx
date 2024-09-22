@@ -2,9 +2,9 @@ import { AiFillDelete } from "react-icons/ai";
 import React, { useEffect } from 'react'
 import './SinglePage.css'
 import { useParams } from 'react-router-dom'
-import { useGetSingleUserQuery } from '../../redux/api/Users'
+import { useGetSingleUserQuery } from '../../redux/api/users'
 import { Link } from 'react-router-dom'
-import { useDeleteUserMutation } from "../../redux/api/Users";
+import { useDeleteUserMutation } from "../../redux/api/users";
 import { useNavigate } from "react-router-dom";
 import { notification } from "antd";
 
